@@ -196,7 +196,7 @@ const GuestInfo = ({ errors, touched, handleChange, values, handleBlur, nidImage
                 dropzoneText="Drag and drop your National ID Card or Click"
                 dropzoneParagraphClass={classes.dropText}
                 dropzoneClass={classes.dropzone}
-                onChange={file => handleImg(file)}
+                // onChange={file => handleImg(file)}
               />
             </Grid>
           </Grid>
